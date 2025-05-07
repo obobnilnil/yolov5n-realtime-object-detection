@@ -40,7 +40,7 @@ import time
 from ultralytics import YOLO
 
 # model = YOLO("../yolov5n.pt") Model loading from remote registry
-model = YOLO("../yolov5nu.pt") # local model
+model = YOLO("../yolov5nu.pt") # local model loading
 
 
 cap = cv2.VideoCapture(1)
