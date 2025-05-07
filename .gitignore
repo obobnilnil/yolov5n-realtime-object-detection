@@ -5,4 +5,7 @@ venv/
 .env/
 *.env
 
+models/yolov3.weights
+*.weights
+
 .vscode/
